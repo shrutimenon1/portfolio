@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Your Name] — Engineer &amp; Editor</title>
+<meta name="description" content="Portfolio of [Your Name]: software engineer, interdisciplinary researcher, and editor.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">¶</span>
+      <span class="brand-name">[Your Name]</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#books">Books</a>
+      <a href="#editorial">Editorial</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-controls">
+      <button id="markup-toggle" class="markup-toggle" aria-pressed="false">
+        <span class="markup-toggle-track"><span class="markup-toggle-thumb"></span></span>
+        <span class="markup-toggle-label">Track Changes</span>
+      </button>
+      <button class="nav-burger" id="nav-burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow mono">Software Engineering — Research — Editorial</p>
+
+      <h1 class="hero-title">
+        <span class="edit-line">
+          <del class="markup-only">I write code that mostly works.</del>
+          <ins class="markup-ins markup-only">I build systems that hold up under review</ins><span class="markup-only">,</span>
+          <span class="markup-base"> and I edit language until it holds up under review too.</span>
+        </span>
+      </h1>
+
+      <p class="hero-sub">
+        [Your Name] is a software engineer and interdisciplinary researcher who spent years on
+        the other side of the manuscript — as a content development editor in tech publishing,
+        and now as an in-house copy editor at a cybersecurity advisory firm. This site sits at
+        that intersection: precise systems, precise sentences.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="#resume" class="btn btn-ghost">Download résumé <span class="mono small">[PDF]</span></a>
+      </div>
+
+      <p class="markup-only annotation hero-annotation">
+        <span class="annotation-mark">JE →</span> lede rewritten for clarity, cut passive voice. — track changes is on, try the toggle up top.
+      </p>
+    </div>
+
+    <div class="hero-scroll-cue mono" aria-hidden="true">scroll ↓</div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section about reveal">
+    <div class="wrap">
+      <p class="section-eyebrow mono">01 — About</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Two disciplines, one instinct.</h2>
+          <p>
+            [Write 2–3 sentences here about your engineering background — languages, systems,
+            the kind of problems you like solving. Placeholder: I've spent [X years] building
+            [type of software/systems], with particular interest in [domain, e.g. security
+            tooling, data infrastructure, developer tools].]
+          </p>
+          <p>
+            [Write 2–3 sentences about your interdisciplinary research — what fields it crosses,
+            what questions it asks. Placeholder: My research sits between [field A] and
+            [field B], looking at [research question/theme].]
+          </p>
+          <p>
+            [Write 2–3 sentences about your editorial path — content development editing in tech
+            publishing, then in-house copy editing at a cybersecurity advisory firm. Placeholder:
+            I've edited [type of content — books / technical reports / advisories] for
+            [audience], with an eye for [what you care about: accuracy, clarity, voice].]
+          </p>
+        </div>
+
+        <aside class="about-facts">
+          <div class="fact">
+            <p class="fact-num mono">4+</p>
+            <p class="fact-label">years copyediting experience</p>
+          </div>
+          <div class="fact">
+            <p class="fact-num mono">[N]</p>
+            <p class="fact-label">books contributed to as content editor</p>
+          </div>
+          <div class="fact">
+            <p class="fact-num mono">[N]</p>
+            <p class="fact-label">years in software engineering</p>
+          </div>
+          <div class="fact">
+            <p class="fact-num mono">1</p>
+            <p class="fact-label">very literal reading of "attention to detail"</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE (changelog style) ============ -->
+  <section id="experience" class="section experience reveal">
+    <div class="wrap">
+      <p class="section-eyebrow mono">02 — Experience</p>
+      <h2>Changelog</h2>
+      <p class="section-lede">A running log, most recent first — kept in the format I'd want a
+        commit history kept in: what changed, and why it mattered.</p>
+
+      <ol class="changelog">
+
+        <li class="entry">
+          <div class="entry-meta mono">
+            <span class="entry-tag tag-current">current</span>
+            <span class="entry-date">[Month Year] — Present</span>
+          </div>
+          <h3 class="entry-title">In-House Copy Editor — <span class="entry-org">[Cybersecurity Advisory Firm]</span></h3>
+          <ul class="entry-diff">
+            <li class="diff-add">Copyedit security advisories, research reports, and client-facing publications for clarity, consistency, and accuracy under deadline.</li>
+            <li class="diff-add">Maintain and extend the firm's internal style guide across technical and non-technical content.</li>
+            <li class="diff-add">Work directly with analysts and researchers to translate dense technical findings into readable prose without losing precision.</li>
+            <li class="diff-neutral">Note: client work is confidential — see the <a href="#editorial">Editorial</a> section for what I can share.</li>
+          </ul>
+        </li>
+
+        <li class="entry">
+          <div class="entry-meta mono">
+            <span class="entry-tag">past</span>
+            <span class="entry-date">[Month Year] — [Month Year]</span>
+          </div>
+          <h3 class="entry-title">Content Development Editor — <span class="entry-org">[Tech Publishing Company]</span></h3>
+          <ul class="entry-diff">
+            <li class="diff-add">Shaped manuscripts for technical and non-fiction books from proposal through final draft.</li>
+            <li class="diff-add">Partnered with authors — many of them engineers and researchers — to structure complex material for a general audience.</li>
+            <li class="diff-add">[Add another concrete responsibility or achievement here.]</li>
+          </ul>
+        </li>
+
+        <li class="entry">
+          <div class="entry-meta mono">
+            <span class="entry-tag">past</span>
+            <span class="entry-date">[Month Year] — [Month Year]</span>
+          </div>
+          <h3 class="entry-title">[Software Engineering Role] — <span class="entry-org">[Company Name]</span></h3>
+          <ul class="entry-diff">
+            <li class="diff-add">[Describe a system you built or contributed to.]</li>
+            <li class="diff-add">[Describe scale, impact, or a technical challenge you solved.]</li>
+            <li class="diff-remove">[Optional: something you deprecated, simplified, or removed — engineers like a good removal.]</li>
+          </ul>
+        </li>
+
+        <li class="entry">
+          <div class="entry-meta mono">
+            <span class="entry-tag">research</span>
+            <span class="entry-date">[Month Year] — [Month Year]</span>
+          </div>
+          <h3 class="entry-title">Interdisciplinary Researcher — <span class="entry-org">[Institution / Lab / Program]</span></h3>
+          <ul class="entry-diff">
+            <li class="diff-add">Researched [topic], bridging [field A] and [field B].</li>
+            <li class="diff-add">[Mention a publication, thesis, or output — link it in Editorial/Writing if public.]</li>
+          </ul>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ BOOKS ============ -->
+  <section id="books" class="section books reveal">
+    <div class="wrap">
+      <p class="section-eyebrow mono">03 — Books</p>
+      <h2>Books I've worked on</h2>
+      <p class="section-lede">As a content development editor, before anything I touch has to
+        stay confidential — these are shareable. Swap in real covers, titles, and links.</p>
+
+      <div class="book-grid">
+
+        <article class="book-card">
+          <div class="book-cover" style="--c1:#2F6F6B;--c2:#1E2430;">
+            <span class="book-cover-initial">[T]</span>
+          </div>
+          <h3 class="book-title">[Book Title One]</h3>
+          <p class="book-meta mono">[Author Name] · [Publisher, Year]</p>
+          <p class="book-role">Role: Content Development Editor</p>
+          <p class="book-desc">[One or two sentences on the book and your contribution —
+            e.g. structural edits, chapter reorganization, working with the author on
+            technical accuracy for a general audience.]</p>
+          <a href="#" class="book-link">View book ↗</a>
+        </article>
+
+        <article class="book-card">
+          <div class="book-cover" style="--c1:#B23A2E;--c2:#1E2430;">
+            <span class="book-cover-initial">[T]</span>
+          </div>
+          <h3 class="book-title">[Book Title Two]</h3>
+          <p class="book-meta mono">[Author Name] · [Publisher, Year]</p>
+          <p class="book-role">Role: Content Development Editor</p>
+          <p class="book-desc">[One or two sentences on the book and your contribution.]</p>
+          <a href="#" class="book-link">View book ↗</a>
+        </article>
+
+        <article class="book-card">
+          <div class="book-cover" style="--c1:#8A6F3A;--c2:#1E2430;">
+            <span class="book-cover-initial">[T]</span>
+          </div>
+          <h3 class="book-title">[Book Title Three]</h3>
+          <p class="book-meta mono">[Author Name] · [Publisher, Year]</p>
+          <p class="book-role">Role: Content Development Editor</p>
+          <p class="book-desc">[One or two sentences on the book and your contribution.]</p>
+          <a href="#" class="book-link">View book ↗</a>
+        </article>
+
+        <article class="book-card book-card-add">
+          <div class="book-cover book-cover-empty">
+            <span>+</span>
+          </div>
+          <h3 class="book-title">Add another</h3>
+          <p class="book-desc">Duplicate a <code class="mono">.book-card</code> block in
+            <code class="mono">index.html</code> to add more titles.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDITORIAL / CONFIDENTIAL COPYEDITING ============ -->
+  <section id="editorial" class="section editorial reveal">
+    <div class="wrap">
+      <p class="section-eyebrow mono">04 — Editorial</p>
+      <h2>Copyediting, in aggregate</h2>
+      <p class="section-lede">
+        My in-house copyediting work is confidential by nature of the industry — advisory
+        clients, threat research, and internal reports aren't mine to publish. Here's what I
+        can share: the shape of the work, without the specifics.
+      </p>
+
+      <div class="redacted-grid">
+
+        <div class="redacted-card">
+          <div class="redacted-card-header mono">
+            <span>DOCUMENT_TYPE</span>
+            <span class="redacted-stamp">CONFIDENTIAL</span>
+          </div>
+          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
+          <p class="redacted-line"><span class="label mono">Format</span> Security advisory / threat report</p>
+          <p class="redacted-line"><span class="label mono">Scope</span> Full copyedit — grammar, consistency, house style, fact-flagging</p>
+          <p class="redacted-line"><span class="label mono">Turnaround</span> <span class="redact-bar short" aria-hidden="true"></span></p>
+        </div>
+
+        <div class="redacted-card">
+          <div class="redacted-card-header mono">
+            <span>DOCUMENT_TYPE</span>
+            <span class="redacted-stamp">CONFIDENTIAL</span>
+          </div>
+          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
+          <p class="redacted-line"><span class="label mono">Format</span> Client-facing research summary</p>
+          <p class="redacted-line"><span class="label mono">Scope</span> Line edit for tone + a plain-language pass for non-technical stakeholders</p>
+          <p class="redacted-line"><span class="label mono">Turnaround</span> <span class="redact-bar short" aria-hidden="true"></span></p>
+        </div>
+
+        <div class="redacted-card">
+          <div class="redacted-card-header mono">
+            <span>DOCUMENT_TYPE</span>
+            <span class="redacted-stamp">CONFIDENTIAL</span>
+          </div>
+          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
+          <p class="redacted-line"><span class="label mono">Format</span> Internal style guide &amp; documentation</p>
+          <p class="redacted-line"><span class="label mono">Scope</span> Authored and maintain the firm's editorial standards</p>
+          <p class="redacted-line"><span class="label mono">Turnaround</span> Ongoing</p>
+        </div>
+
+      </div>
+
+      <p class="editorial-footnote">
+        [Optional: if you have any public writing, guest posts, style-guide talks, or
+        anonymized before/after examples you're allowed to share, list them here or link
+        out instead of the redacted cards above.]
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section skills reveal">
+    <div class="wrap">
+      <p class="section-eyebrow mono">05 — Skills</p>
+      <h2>Toolset</h2>
+
+      <div class="skills-grid">
+        <div class="skill-col">
+          <h3 class="skill-col-title">Engineering</h3>
+          <ul class="tag-list">
+            <li>[JavaScript]</li><li>[TypeScript]</li><li>[Python]</li>
+            <li>[Node.js]</li><li>[React]</li><li>[SQL]</li>
+            <li>[Add / edit]</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3 class="skill-col-title">Editorial</h3>
+          <ul class="tag-list">
+            <li>Copyediting</li><li>Developmental editing</li>
+            <li>Chicago Manual of Style</li><li>AP Style</li>
+            <li>House style development</li><li>Fact-checking</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3 class="skill-col-title">Research</h3>
+          <ul class="tag-list">
+            <li>[Research method]</li><li>[Field / domain]</li>
+            <li>[Field / domain]</li><li>[Add / edit]</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact reveal">
+    <div class="wrap contact-inner">
+      <p class="section-eyebrow mono">06 — Contact</p>
+      <h2>Let's talk.</h2>
+      <p class="section-lede">Open to [engineering roles / editorial work / research
+        collaboration — edit to taste]. The fastest way to reach me is email.</p>
+
+      <div class="contact-links">
+        <a href="mailto:you@example.com" class="contact-link">
+          <span class="contact-link-label mono">Email</span>
+          <span class="contact-link-value">you@example.com</span>
+        </a>
+        <a href="https://github.com/yourhandle" class="contact-link" target="_blank" rel="noopener">
+          <span class="contact-link-label mono">GitHub</span>
+          <span class="contact-link-value">github.com/yourhandle</span>
+        </a>
+        <a href="https://linkedin.com/in/yourhandle" class="contact-link" target="_blank" rel="noopener">
+          <span class="contact-link-label mono">LinkedIn</span>
+          <span class="contact-link-value">linkedin.com/in/yourhandle</span>
+        </a>
+        <a id="resume" href="#" class="contact-link" target="_blank" rel="noopener">
+          <span class="contact-link-label mono">Résumé</span>
+          <span class="contact-link-value">[link to PDF]</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="mono small">© <span id="year"></span> [Your Name]. Built with HTML, CSS &amp; JS.</p>
+    <p class="mono small">Last proofread: [Month Year]</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
