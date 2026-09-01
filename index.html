@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>[Your Name] — Engineer &amp; Editor</title>
+<title>Shruti Menon's Portfolio</title>
 <meta name="description" content="Portfolio of [Your Name]: software engineer, interdisciplinary researcher, and editor.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,22 +11,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-</head>
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180.png"></head>
 <body>
 
 <!-- ============ NAV ============ -->
 <header class="site-header">
   <div class="wrap header-inner">
-    <a href="#top" class="brand">
+    <!-- <a href="#top" class="brand">
       <span class="brand-mark">¶</span>
-      <span class="brand-name">[Your Name]</span>
+      <span class="brand-name">Shruti Menon</span>
     </a>
-
+ -->
+    <a href="#top" class="brand">
+  <img src="images/favicon-32.png" alt="" class="brand-mark" width="28" height="28">
+  <span class="brand-name">Shruti Menon</span>
+</a>
     <nav class="site-nav" id="site-nav">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
-      <a href="#books">Books</a>
-      <a href="#editorial">Editorial</a>
+      <a href="#editorial">Copy Editing</a>
+      <a href="#books">Development Editing</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -48,21 +54,32 @@
   <!-- ============ HERO ============ -->
   <section class="hero">
     <div class="wrap hero-inner">
-      <p class="eyebrow mono">Software Engineering — Research — Editorial</p>
+      <p class="eyebrow mono">Copy editing — Development editing — Editorial strategy</p>
 
       <h1 class="hero-title">
         <span class="edit-line">
-          <del class="markup-only">I write code that mostly works.</del>
-          <ins class="markup-ins markup-only">I build systems that hold up under review</ins><span class="markup-only">,</span>
-          <span class="markup-base"> and I edit language until it holds up under review too.</span>
+          <del class="markup-only">I correct grammar and punctuation.</del>
+          <ins class="markup-ins markup-only">I help tech experts translate complex technical ideas into accurate, engaging content.</ins><span class="markup-only"></span>
+          <span class="markup-base">I help tech experts translate complex technical ideas into accurate, engaging content.</span>
         </span>
       </h1>
 
+      <p class="markup-only annotation hero-annotation">
+        <span class="annotation-mark">Editor's Note:</span> I've rewritten this sentence to clarify what my role actually involves. Track Changes is on; try toggling it up top!
+      <button type="button" class="annotation-like" aria-pressed="false" aria-label="Like this comment">
+  <svg class="annotation-like-icon" viewBox="0 0 24 24" width="14" height="14">
+    <path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+  </svg>
+  <span class="annotation-like-count">0</span>
+</button>
+      </p>
+      <p>&nbsp;</p>
+
       <p class="hero-sub">
-        [Your Name] is a software engineer and interdisciplinary researcher who spent years on
-        the other side of the manuscript — as a content development editor in tech publishing,
-        and now as an in-house copy editor at a cybersecurity advisory firm. This site sits at
-        that intersection: precise systems, precise sentences.
+        I'm an experienced copy editor and content development editor with a background in both tech and publishing and a 
+        commitment to clarity, technical accuracy, and consistency. I'm skilled at collaborating with authors
+         and SMEs to translate complex technical content into clear, well-structured content. I also design learning experiences 
+         for adult learners in professional education and workforce development.
       </p>
 
       <div class="hero-actions">
@@ -70,9 +87,7 @@
         <a href="#resume" class="btn btn-ghost">Download résumé <span class="mono small">[PDF]</span></a>
       </div>
 
-      <p class="markup-only annotation hero-annotation">
-        <span class="annotation-mark">JE →</span> lede rewritten for clarity, cut passive voice. — track changes is on, try the toggle up top.
-      </p>
+      
     </div>
 
     <div class="hero-scroll-cue mono" aria-hidden="true">scroll ↓</div>
@@ -192,10 +207,66 @@
     </div>
   </section>
 
+  <!-- ============ EDITORIAL / CONFIDENTIAL COPYEDITING ============ -->
+  <section id="editorial" class="section editorial reveal">
+    <div class="wrap">
+      <p class="section-eyebrow mono">03 — Copy Editing</p>
+      <h2>Copyediting, in aggregate</h2>
+      <p class="section-lede">
+        My in-house copyediting work is confidential by nature of the industry — advisory
+        clients, threat research, and internal reports aren't mine to publish. Here's what I
+        can share: the shape of the work, without the specifics.
+      </p>
+
+      <div class="redacted-grid">
+
+        <div class="redacted-card">
+          <div class="redacted-card-header mono">
+            <span>DOCUMENT_TYPE</span>
+            <span class="redacted-stamp">CONFIDENTIAL</span>
+          </div>
+          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
+          <p class="redacted-line"><span class="label mono">Format</span> Security advisory / threat report</p>
+          <p class="redacted-line"><span class="label mono">Scope</span> Full copyedit — grammar, consistency, house style, fact-flagging</p>
+          <p class="redacted-line"><span class="label mono">Turnaround</span> <span class="redact-bar short" aria-hidden="true"></span></p>
+        </div>
+
+        <div class="redacted-card">
+          <div class="redacted-card-header mono">
+            <span>DOCUMENT_TYPE</span>
+            <span class="redacted-stamp">CONFIDENTIAL</span>
+          </div>
+          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
+          <p class="redacted-line"><span class="label mono">Format</span> Client-facing research summary</p>
+          <p class="redacted-line"><span class="label mono">Scope</span> Line edit for tone + a plain-language pass for non-technical stakeholders</p>
+          <p class="redacted-line"><span class="label mono">Turnaround</span> <span class="redact-bar short" aria-hidden="true"></span></p>
+        </div>
+
+        <div class="redacted-card">
+          <div class="redacted-card-header mono">
+            <span>DOCUMENT_TYPE</span>
+            <span class="redacted-stamp">CONFIDENTIAL</span>
+          </div>
+          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
+          <p class="redacted-line"><span class="label mono">Format</span> Internal style guide &amp; documentation</p>
+          <p class="redacted-line"><span class="label mono">Scope</span> Authored and maintain the firm's editorial standards</p>
+          <p class="redacted-line"><span class="label mono">Turnaround</span> Ongoing</p>
+        </div>
+
+      </div>
+
+      <p class="editorial-footnote">
+        [Optional: if you have any public writing, guest posts, style-guide talks, or
+        anonymized before/after examples you're allowed to share, list them here or link
+        out instead of the redacted cards above.]
+      </p>
+    </div>
+  </section>
+
   <!-- ============ BOOKS ============ -->
   <section id="books" class="section books reveal">
     <div class="wrap">
-      <p class="section-eyebrow mono">03 — Books</p>
+      <p class="section-eyebrow mono">04 — Books</p>
       <h2>Books I've worked on</h2>
       <p class="section-lede">As a content development editor, before anything I touch has to
         stay confidential — these are shareable. Swap in real covers, titles, and links.</p>
@@ -247,62 +318,6 @@
         </article>
 
       </div>
-    </div>
-  </section>
-
-  <!-- ============ EDITORIAL / CONFIDENTIAL COPYEDITING ============ -->
-  <section id="editorial" class="section editorial reveal">
-    <div class="wrap">
-      <p class="section-eyebrow mono">04 — Editorial</p>
-      <h2>Copyediting, in aggregate</h2>
-      <p class="section-lede">
-        My in-house copyediting work is confidential by nature of the industry — advisory
-        clients, threat research, and internal reports aren't mine to publish. Here's what I
-        can share: the shape of the work, without the specifics.
-      </p>
-
-      <div class="redacted-grid">
-
-        <div class="redacted-card">
-          <div class="redacted-card-header mono">
-            <span>DOCUMENT_TYPE</span>
-            <span class="redacted-stamp">CONFIDENTIAL</span>
-          </div>
-          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
-          <p class="redacted-line"><span class="label mono">Format</span> Security advisory / threat report</p>
-          <p class="redacted-line"><span class="label mono">Scope</span> Full copyedit — grammar, consistency, house style, fact-flagging</p>
-          <p class="redacted-line"><span class="label mono">Turnaround</span> <span class="redact-bar short" aria-hidden="true"></span></p>
-        </div>
-
-        <div class="redacted-card">
-          <div class="redacted-card-header mono">
-            <span>DOCUMENT_TYPE</span>
-            <span class="redacted-stamp">CONFIDENTIAL</span>
-          </div>
-          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
-          <p class="redacted-line"><span class="label mono">Format</span> Client-facing research summary</p>
-          <p class="redacted-line"><span class="label mono">Scope</span> Line edit for tone + a plain-language pass for non-technical stakeholders</p>
-          <p class="redacted-line"><span class="label mono">Turnaround</span> <span class="redact-bar short" aria-hidden="true"></span></p>
-        </div>
-
-        <div class="redacted-card">
-          <div class="redacted-card-header mono">
-            <span>DOCUMENT_TYPE</span>
-            <span class="redacted-stamp">CONFIDENTIAL</span>
-          </div>
-          <p class="redacted-line"><span class="label mono">Client</span> <span class="redact-bar" aria-hidden="true"></span></p>
-          <p class="redacted-line"><span class="label mono">Format</span> Internal style guide &amp; documentation</p>
-          <p class="redacted-line"><span class="label mono">Scope</span> Authored and maintain the firm's editorial standards</p>
-          <p class="redacted-line"><span class="label mono">Turnaround</span> Ongoing</p>
-        </div>
-
-      </div>
-
-      <p class="editorial-footnote">
-        [Optional: if you have any public writing, guest posts, style-guide talks, or
-        anonymized before/after examples you're allowed to share, list them here or link
-        out instead of the redacted cards above.]
-      </p>
     </div>
   </section>
 

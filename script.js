@@ -22,11 +22,27 @@ markupToggle.addEventListener('click', () => {
 
 // Turn markup on briefly on first load so visitors notice the feature,
 // then switch it off. Skipped if the visitor prefers reduced motion.
-const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (!prefersReducedMotion) {
   window.addEventListener('load', () => {
     setTimeout(() => setMarkup(true), 500);
     setTimeout(() => setMarkup(false), 3200);
+  });
+} */
+setMarkup(true);
+
+// Like button on the editorial annotation
+const annotationLike = document.querySelector('.annotation-like');
+if (annotationLike) {
+  const countEl = annotationLike.querySelector('.annotation-like-count');
+  let liked = false;
+  let count = 0;
+
+  annotationLike.addEventListener('click', () => {
+    liked = !liked;
+    count += liked ? 1 : -1;
+    countEl.textContent = count;
+    annotationLike.setAttribute('aria-pressed', String(liked));
   });
 }
 
